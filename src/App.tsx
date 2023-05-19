@@ -10,7 +10,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/home" />} />
-
       <Route path="/home" element={<Home />} />
       <Route path="/onboarding" element={<Onboarding />} />
     </Routes>
@@ -18,3 +17,4 @@ function App() {
 }
 
 export default App;
+ 
