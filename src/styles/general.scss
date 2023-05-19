@@ -1,3 +1,6 @@
+@import "./variables.scss";
+@import "./typography.scss";
+
 @font-face {
   font-family: "Averta";
   src: url("../../public/fonts/averta-pe-regular.woff2");
@@ -19,12 +22,28 @@
   font-style: normal;
 }
 
+body,
+html,
+* {
+  color: var(--color-black);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.25;
+  font-family: "averta";
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+  min-height: 100%;
+}
+
 .container {
   padding: 0 var(--container-padding-x) var(--container-padding-bottom);
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  background-color: var(--background);
 
   @media (min-width: 991px) {
     max-width: 900px;

@@ -1,0 +1,14 @@
+h1 {
+  font-size: 28px;
+  line-height: 1.143;
+
+  @media (min-width: 991px) {
+    font-size: 32px;
+    line-height: 1.125;
+  }
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 1.182;
+}
