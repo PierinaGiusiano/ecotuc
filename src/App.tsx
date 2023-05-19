@@ -4,7 +4,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import Home from "./pages/home/home";
 import Onboarding from "./pages/onboarding/onboarding";
 
-import "./App.scss";
+import "./styles/general.scss";
 
 function App() {
   return (
