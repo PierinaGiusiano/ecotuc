@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6px 0;
+  flex: 1;
+
+  .logo {
+    display: none;
+    margin-left: -10px;
+
+    img {
+      width: 184px;
+    }
+
+    @media (min-width: 991px) {
+      display: block;
+    }
+  }
+
+  .iconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1;
+    gap: 20px;
+
+    @media (min-width: 991px) {
+      flex: none;
+      gap: 30px;
+    }
+  }
+
+  @media (min-width: 991px) {
+    max-width: 900px;
+    width: 100%;
+    padding: 16px 0;
+  }
+
+  @media (min-width: 1240px) {
+    max-width: 1200px;
+    width: 100%;
+  }
+}

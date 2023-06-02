@@ -10,6 +10,7 @@
     --color-white: #ffffff;
     --color-black: #000000;
     --primary: #235130;
+    --primary-10: #2351300d;
     --secondary: #92be87;
     --gray: #8a917c;
     --lightGray: #a3a39c;
@@ -20,9 +21,9 @@
   
     /************* 3. Dimensions *********/
     --height-100: 100vh; // is updated dynamically in JS
-    --container-padding-x: 15px;
-    --container-padding-y: 10px;
-    --container-padding-bottom: 30px;
+    --container-padding-y: 32px;
+    --container-padding-x: 16px;
+    --container-padding-bottom: 56px;
   
   /************* 4. Shadows *********/
     --card-shadow: 0 4px 8px 0 rgba(0, 0, 0, .05);

@@ -6,7 +6,7 @@ import Layout from "../../components/layout/layout";
 
 // import styles from './home.module.scss'
 
-const Home = () => {
+const EcoPuntos = () => {
   return (
     <Layout>
       <h1>Hello</h1>
@@ -14,4 +14,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default EcoPuntos;

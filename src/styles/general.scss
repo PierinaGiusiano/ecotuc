@@ -3,23 +3,27 @@
 
 @font-face {
   font-family: "Averta";
-  src: url("../../public/fonts/averta-pe-regular.woff2");
+  src: url("../assets/fonts/averta-pe-regular.woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Averta";
-  src: url("../../public/fonts/averta-pe-semibold.woff2");
+  src: url("../assets/fonts/averta-pe-semibold.woff2");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Averta";
-  src: url("../../public/fonts/averta-pe-bold.woff2");
+  src: url("../assets/fonts/averta-pe-bold.woff2");
   font-weight: 700;
   font-style: normal;
+}
+
+html {
+  background-color: var(--background);
 }
 
 body,
@@ -33,21 +37,21 @@ html,
   line-height: 1.25;
   font-family: "averta";
   -webkit-tap-highlight-color: transparent;
-  height: 100%;
-  min-height: 100%;
 }
 
 .container {
-  padding: 0 var(--container-padding-x) var(--container-padding-bottom);
+  padding: var(--container-padding-y) var(--container-padding-x) var(--container-padding-bottom);
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   background-color: var(--background);
+  flex: 1 1;
 
   @media (min-width: 991px) {
     max-width: 900px;
     width: 100%;
+    padding: 112px 0 30px;
   }
 
   @media (min-width: 1240px) {
