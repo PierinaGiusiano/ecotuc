@@ -8,7 +8,7 @@ import Markers from "./markers";
 const MapView = () => {
   return (
     <MapContainer
-      center={[-26.82518565212201, -65.23229581464803]}
+      center={[-26.81923903249609, -65.20276780022984]}
       zoom={16}
       maxZoom={18}
       minZoom={15}
