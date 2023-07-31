@@ -1,4 +1,41 @@
-.leaflet {
-  width: 100vw;
-  height: 100vh;
+.section {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.categoriesWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(50px, 1fr));
+  grid-gap: 15px;
+
+  @media (min-width: 991px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.containerSlider {
+  margin: -15px -25px;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sliderItems {
+  padding: 15px 25px;
+}
+
+.item {
+  height: auto;
+  transform: translate3d(0, 0, 0);
+  > div {
+    height: 100%;
+  }
+}
+
+.item:global(.swiper-slide) {
+  @media (max-width: 991px) {
+    width: 50vw;
+    margin-right: 15px;
+  }
 }

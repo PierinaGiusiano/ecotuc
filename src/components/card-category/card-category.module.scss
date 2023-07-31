@@ -1,0 +1,28 @@
+.cardCategory {
+  background-color: var(--color-white);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  cursor: pointer;
+
+  img {
+    max-width: 50px;
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: var(--secondary);
+
+    p {
+      color: var(--primary);
+    }
+
+    img {
+      transform: scale(1.3);
+    }
+  }
+}

@@ -10,13 +10,14 @@
 
   .navbarWrapper {
     background-color: var(--color-white);
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     max-height: 80px;
     display: flex;
     justify-content: center;
+    z-index: 2;
 
     @media (min-width: 991px) {
         top: 0;
