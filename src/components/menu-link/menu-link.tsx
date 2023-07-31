@@ -4,7 +4,7 @@ import cx from "classnames";
 
 import styles from "./menu-link.module.scss";
 
-interface MenuLinkProps {
+type MenuLinkProps = {
   url: string;
   iconUrl: string;
   title: string;

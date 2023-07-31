@@ -5,7 +5,7 @@ import NavBar from "../nav-bar/nav-bar";
 
 import styles from "./layout.module.scss";
 
-interface LayoutProps {
+type LayoutProps = {
   children: ReactNode;
 }
 

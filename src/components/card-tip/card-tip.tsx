@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import styles from "./card-tip.module.scss";
 
-interface CardTipProps {
+type CardTipProps = {
   title: string;
   image: string;
   description: string;

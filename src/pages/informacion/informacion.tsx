@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SwiperOptions, Navigation } from "swiper";
 
@@ -21,50 +21,57 @@ import recicla2 from "../../assets/images/recicla-2.jpg";
 import "swiper/css";
 import "swiper/css/navigation";
 import styles from "./informacion.module.scss";
+import CardModal from "../../components/card-modal/card-modal";
 
 const categories = [
-  { title: "Baterías", image: battery },
-  { title: "Cartón", image: cardboard },
-  { title: "Electrónicos", image: electronic },
-  { title: "Metal", image: metal },
-  { title: "Orgánico", image: organic },
-  { title: "Papel", image: paper },
-  { title: "Plástico", image: plastic },
-  { title: "Vidrio", image: glass },
+  { id: 1, title: "Baterías", image: battery },
+  { id: 2, title: "Cartón", image: cardboard },
+  { id: 3, title: "Electrónicos", image: electronic },
+  { id: 4, title: "Metal", image: metal },
+  { id: 5, title: "Orgánico", image: organic },
+  { id: 6, title: "Papel", image: paper },
+  { id: 7, title: "Plástico", image: plastic },
+  { id: 8, title: "Vidrio", image: glass },
 ];
 
 const tips = [
   {
+    id: 1,
     title: "Recicla de esta manera",
     image: recicla,
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, nihil. Minima beatae perferendis facere illum velit qui aperiam enim necessitatibus.",
   },
   {
+    id: 2,
     title: "Recicla de esta manera",
     image: recicla1,
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, nihil. Minima beatae perferendis facere illum velit qui aperiam enim necessitatibus.",
   },
   {
+    id: 3,
     title: "Recicla de esta manera",
     image: recicla2,
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, nihil. Minima beatae perferendis facere illum velit qui aperiam enim necessitatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, nihil. Minima beatae perferendis facere illum velit qui aperiam enim necessitatibus Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, nihil. Minima beatae perferendis facere illum velit qui aperiam enim necessitatibus",
   },
   {
+    id: 4,
     title: "Recicla de esta manera",
     image: recicla,
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, nihil. Minima beatae perferendis facere illum velit qui aperiam enim necessitatibus.",
   },
   {
+    id: 5,
     title: "Recicla de esta manera",
     image: recicla1,
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, nihil. Minima beatae perferendis facere illum velit qui aperiam enim necessitatibus.",
   },
   {
+    id: 6,
     title: "Recicla de esta manera",
     image: recicla2,
     description:
@@ -73,6 +80,8 @@ const tips = [
 ];
 
 const Informacion = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <Layout>
       <div className={styles.section}>
@@ -86,7 +95,12 @@ const Informacion = () => {
         <h2>Categorias</h2>
         <div className={styles.categoriesWrapper}>
           {categories.map((category) => (
-            <CardCategory title={category.title} image={category.image} />
+            <CardCategory
+              key={category.id}
+              title={category.title}
+              image={category.image}
+              onClick={() => setIsModalOpen(true)}
+            />
           ))}
         </div>
       </div>
@@ -112,7 +126,7 @@ const Informacion = () => {
             modules={[Navigation]}
           >
             {tips.map((tip) => (
-              <SwiperSlide className={styles.item}>
+              <SwiperSlide key={tip.id} className={styles.item}>
                 <CardTip
                   image={tip.image}
                   title={tip.title}
@@ -123,6 +137,13 @@ const Informacion = () => {
           </Swiper>
         </div>
       </div>
+      <CardModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        title="Modal Title"
+      >
+        <p>Hello</p>
+      </CardModal>
     </Layout>
   );
 };

@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 
 import styles from "./app-layout.module.scss";
 
-interface AppLayoutProps {
+type AppLayoutProps = {
     children: ReactNode;
 }
 
