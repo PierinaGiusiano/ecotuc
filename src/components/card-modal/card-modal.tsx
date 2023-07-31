@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import Modal from "react-modal";
 
 import styles from "./card-modal.module.scss";
 
@@ -13,12 +12,17 @@ type ModalProps = {
 
 const CardModal = ({ title, image, children, isOpen, onClose }: ModalProps) => {
   return (
-    <div className={styles.modalOverlay} style={{ display: isOpen ? "block" : "none" }}>
+    <div
+      className={styles.modalOverlay}
+      style={{ display: isOpen ? "flex" : "none" }}
+    >
+      <span className={styles.closeButton} onClick={onClose}>
+        &times;
+      </span>
+      <h3>{title}</h3>
       <div className={styles.modalContent}>
-        <h3>{title}</h3>
-        <div>
-          {children}
-        </div>
+        <img src={image} alt="title" />
+        <div>{children}</div>
       </div>
     </div>
   );
