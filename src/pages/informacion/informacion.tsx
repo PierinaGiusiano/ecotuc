@@ -85,7 +85,7 @@ const Informacion = () => {
   return (
     <Layout>
       <div className={styles.section}>
-        <h1>Datos, tips y curiosidades</h1>
+        <h1>Datos, tips y curiosidades 🤓✏️</h1>
         <p>
           Aquí encontrarás valiosos recursos e inspiración para llevar un estilo
           de vida más sostenible y contribuir al cuidado de nuestro planeta.

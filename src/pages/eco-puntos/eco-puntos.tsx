@@ -9,11 +9,7 @@ const EcoPuntos = () => {
   return (
     <Layout>
       <div className={styles.section}>
-        <h1>ECO Puntos</h1>
-        <p>
-          Aquí encontrarás los puntos verdes o centros de reciclaje que
-          funcionan en la ciudad de San Miguel de Tucumán.
-        </p>
+        <h1>¡Encontrá el punto verde o centro de reciclaje más cercano! 🌏🌱</h1>
       </div>
       <div className={styles.mapContainer}>
         <MapView />
