@@ -23,6 +23,8 @@ import "swiper/css/navigation";
 import styles from "./informacion.module.scss";
 import CardModal from "../../components/card-modal/card-modal";
 
+import TipsJSON from "../../Tips/tips.json"
+
 const categories = [
   { id: 1, title: "Baterías", image: battery },
   { id: 2, title: "Cartón", image: cardboard },
@@ -33,6 +35,7 @@ const categories = [
   { id: 7, title: "Plástico", image: plastic },
   { id: 8, title: "Vidrio", image: glass },
 ];
+
 
 const tips = [
   {
@@ -81,7 +84,12 @@ const tips = [
 
 const Informacion = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedTipsId, setSelectedTipsId] = useState<number | null>(null);
 
+  const handleTipsClick = (TipsId: number) => {
+    setSelectedTipsId(TipsId);
+    setIsModalOpen(true);
+  }
   return (
     <Layout>
       <div className={styles.section}>
@@ -99,7 +107,7 @@ const Informacion = () => {
               key={category.id}
               title={category.title}
               image={category.image}
-              onClick={() => setIsModalOpen(true)}
+              onClick={() => handleTipsClick(category.id)}
             />
           ))}
         </div>
@@ -131,21 +139,33 @@ const Informacion = () => {
                   image={tip.image}
                   title={tip.title}
                   description={tip.description}
-                />
+                  />
               </SwiperSlide>
+              
             ))}
           </Swiper>
+
+          <CardModal
+            isOpen={isModalOpen}
+            onClose={() => setIsModalOpen(false)}
+            title={selectedTipsId ? TipsJSON[selectedTipsId - 1].Titulo : ""}
+            image={
+              selectedTipsId
+                ? require(`../../Tips/Imagenes/${TipsJSON[selectedTipsId - 1].Imagen}`)
+                : "no encuentra la ruta"
+            }
+            description={selectedTipsId ? TipsJSON[selectedTipsId - 1].Descripcion : ""}
+          >
+        <p>HELLO</p>
+
+      </CardModal>
+console.log(CardModal)
         </div>
       </div>
-      <CardModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        title="Modal Title"
-      >
-        <p>Hello</p>
-      </CardModal>
     </Layout>
+          
   );
 };
 
 export default Informacion;
+
