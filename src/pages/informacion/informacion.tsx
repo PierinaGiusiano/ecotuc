@@ -23,7 +23,7 @@ import "swiper/css/navigation";
 import styles from "./informacion.module.scss";
 import CardModal from "../../components/card-modal/card-modal";
 
-import TipsJSON from "../../Tips/tips.json";
+import TipsJSON from "../../Tips/tips.json"
 
 const categories = [
   { id: 1, title: "Baterías", image: battery },
@@ -36,6 +36,7 @@ const categories = [
   { id: 8, title: "Vidrio", image: glass },
 ];
 
+/*
 const tips = [
   {
     id: 1,
@@ -80,15 +81,16 @@ const tips = [
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, nihil. Minima beatae perferendis facere illum velit qui aperiam enim necessitatibus.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, nihil. Minima beatae perferendis facere illum velit qui aperiam enim necessitatibus",
   },
 ];
+*/
 
 const Informacion = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedTipsId, setSelectedTipsId] = useState<number | null>(null);
 
-  const handleTipsClick = (TipsId: number) => {
-    setSelectedTipsId(TipsId);
+  const handleTipsClick = (id: number) => {
+    setSelectedTipsId(id);
     setIsModalOpen(true);
-  };
+  }
   return (
     <Layout>
       <div className={styles.section}>
@@ -106,7 +108,8 @@ const Informacion = () => {
               key={category.id}
               title={category.title}
               image={category.image}
-              onClick={() => handleTipsClick(category.id)}
+              //onClick={() => handleTipsClick(category.id)}  
+              // necesito buscar desde otro json para cargar en el mismo modal
             />
           ))}
         </div>
@@ -132,38 +135,40 @@ const Informacion = () => {
             navigation={true}
             modules={[Navigation]}
           >
-            {tips.map((tip) => (
-              <SwiperSlide key={tip.id} className={styles.item}>
+            {TipsJSON.map((tip) => (
+              <SwiperSlide 
+                key={tip.id} 
+                className={styles.item} 
+                onClick={() => handleTipsClick(tip.id)}
+              >
                 <CardTip
-                  image={tip.image}
-                  title={tip.title}
-                  description={tip.description}
+                  title={tip.Titulo}
+                  description={tip.Descripcion}
+                  image={require(`../../Tips/Imagenes/${tip.Imagen}`)}
                 />
               </SwiperSlide>
             ))}
           </Swiper>
+
           <CardModal
             isOpen={isModalOpen}
             onClose={() => setIsModalOpen(false)}
             title={selectedTipsId ? TipsJSON[selectedTipsId - 1].Titulo : ""}
             image={
               selectedTipsId
-                ? require(`../../Tips/Imagenes/${
-                    TipsJSON[selectedTipsId - 1].Imagen
-                  }`)
+                ? require(`../../Tips/Imagenes/${TipsJSON[selectedTipsId - 1].Imagen}`)
                 : "no encuentra la ruta"
             }
-            description={
-              selectedTipsId ? TipsJSON[selectedTipsId - 1].Descripcion : ""
-            }
+            description={selectedTipsId ? TipsJSON[selectedTipsId - 1].Descripcion : ""}
           >
-            <p>HELLO</p>
-          </CardModal>
-          console.log(CardModal)
+        <p>*/☻\* ECOTUC */☻\*</p>
+      </CardModal>
         </div>
       </div>
     </Layout>
+          
   );
 };
 
 export default Informacion;
+

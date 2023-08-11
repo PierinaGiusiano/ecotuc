@@ -5,9 +5,10 @@ type CardTipProps = {
   title: string;
   image: string;
   description: string;
+  onClick?: () => void;
 }
 
-const CardTip = ({ title, image, description }: CardTipProps) => {
+const CardTip = ({ title, image, description, onClick }: CardTipProps) => {
   const descriptionRef = useRef<HTMLParagraphElement>(null);
 
   useEffect(() => {

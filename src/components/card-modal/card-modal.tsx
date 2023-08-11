@@ -22,9 +22,12 @@ const CardModal = ({ title, description,  image, children, isOpen, onClose }: Mo
       <div className={styles.modalContent}>
         <img src={close} width={24} height={24} className={styles.closeButton} onClick={onClose} alt="close"/>
         <h3 className={styles.title}>{title}</h3>
-        <img src={image} alt={title} />
+        <img src={image} alt={title} className={styles.imagenes} />
         <div>
           <p>{description}</p>
+        </div>
+        <div>
+          <p>{children}</p>
         </div>
       </div>
     </div>
