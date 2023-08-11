@@ -23,7 +23,7 @@ import "swiper/css/navigation";
 import styles from "./informacion.module.scss";
 import CardModal from "../../components/card-modal/card-modal";
 
-import TipsJSON from "../../Tips/tips.json"
+import TipsJSON from "../../Tips/tips.json";
 
 const categories = [
   { id: 1, title: "Baterías", image: battery },
@@ -35,7 +35,6 @@ const categories = [
   { id: 7, title: "Plástico", image: plastic },
   { id: 8, title: "Vidrio", image: glass },
 ];
-
 
 const tips = [
   {
@@ -89,7 +88,7 @@ const Informacion = () => {
   const handleTipsClick = (TipsId: number) => {
     setSelectedTipsId(TipsId);
     setIsModalOpen(true);
-  }
+  };
   return (
     <Layout>
       <div className={styles.section}>
@@ -139,33 +138,32 @@ const Informacion = () => {
                   image={tip.image}
                   title={tip.title}
                   description={tip.description}
-                  />
+                />
               </SwiperSlide>
-              
             ))}
           </Swiper>
-
           <CardModal
             isOpen={isModalOpen}
             onClose={() => setIsModalOpen(false)}
             title={selectedTipsId ? TipsJSON[selectedTipsId - 1].Titulo : ""}
             image={
               selectedTipsId
-                ? require(`../../Tips/Imagenes/${TipsJSON[selectedTipsId - 1].Imagen}`)
+                ? require(`../../Tips/Imagenes/${
+                    TipsJSON[selectedTipsId - 1].Imagen
+                  }`)
                 : "no encuentra la ruta"
             }
-            description={selectedTipsId ? TipsJSON[selectedTipsId - 1].Descripcion : ""}
+            description={
+              selectedTipsId ? TipsJSON[selectedTipsId - 1].Descripcion : ""
+            }
           >
-        <p>HELLO</p>
-
-      </CardModal>
-console.log(CardModal)
+            <p>HELLO</p>
+          </CardModal>
+          console.log(CardModal)
         </div>
       </div>
     </Layout>
-          
   );
 };
 
 export default Informacion;
-

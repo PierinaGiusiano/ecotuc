@@ -1,4 +1,78 @@
-.leaflet {
-  width: 100vw;
-  height: 100vh;
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .accent {
+    color: #92be87;
+    font-size: 30px;
+
+    @media (min-width: 991px) {
+      font-size: 52px;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin: auto;
+
+    @media (min-width: 768px) {
+      width: 45%;
+      max-height: 100%;
+      margin: 0;
+    }
+  }
+}
+
+.aboutUsSection {
+  padding-top: 40px;
+
+  h2 {
+    padding-bottom: 15px;
+  }
+
+  p {
+    max-width: 90%;
+  }
+}
+
+.stepsSection {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  img {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin: auto;
+
+    @media (min-width: 768px) {
+      width: 40%;
+      max-height: 100%;
+      margin: 0;
+    }
+  }
+}
+
+.saveSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  img{ 
+    max-height: 600px;
+  }
 }

@@ -19,6 +19,23 @@
         border-radius: 8px;
         box-shadow: var(--card-shadow);
         margin: 20px;
+        overflow-y: scroll;
+
+        &::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background-color: var(--secondary);
+        }
+    
+        &::-webkit-scrollbar {
+            width: 8px;
+            background-color: var(--secondary);
+        }
+    
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            background-color: var(--primary);
+        }
 
         .closeButton {
             position: absolute;

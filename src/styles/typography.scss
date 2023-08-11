@@ -6,6 +6,11 @@ h1 {
     font-size: 32px;
     line-height: 1.125;
   }
+
+  @media (min-width: 1400px) {
+    font-size: 38px;
+    line-height: 1.2;
+  }
 }
 
 h2 {
