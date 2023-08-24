@@ -1,0 +1,229 @@
+[
+	{
+		"id": 1,
+		"Titulo": "Plástico",
+		"Imagen": "plastic.png",
+		"Subcategoria": [
+			{
+				"id": 1,
+				"Nombre": "Que podemos reciclar",
+				"informacion": "**SI:**\n• Botellas y envases de plástico.\n• Anillos de plastico para Six Pack.\n**NO:**\n• Bolsas de plástico y película.\n• Artículos electrónicos.\n • Envases de insecticidas y productos químicos peligrosos."
+			},
+			{
+				"id": 2,
+				"Nombre": "ARTÍCULOS COMUNES DE TEREFTALATO DE POLIETILENO:",
+				"informacion": "ENVASES DE COSMÉTICOS\n BOTELLAS DE PLÁSTICO\n BOTELLAS DE ENJUAGUE BUCAL\n BANDEJAS DE COMIDA PREPARADA"
+			},
+			{
+				"Nombre": "ARTÍCULOS COMUNES DE POLIETILENO DE ALTA DENSIDAD:",
+				"id": 3,
+				"informacion": "BOTELLAS DE DETERGENTE\n BOLSAS DE SUPERMERCADO\n BOTELLAS DE LECHE\n BOTELLAS DE SHAMPOO"
+			},
+			{
+				"id": 4,
+				"Nombre": "ARTÍCULOS COMUNES DE CLORURO DE POLIVINILO:",
+				"informacion": "MANGUERA DE JARDÍN\n MARCOS DE VENTANAS\n BOLSAS DE SANGRE\n BLISTERS"
+			},
+			{
+				"id": 5,
+				"Nombre": "ARTÍCULOS COMUNES DE POLIETILENO DE BAJA DENSIDAD:",
+				"informacion": "ANILLOS DE SIX PACKS\n PAPEL FILM\n BOLSAS DE PAN\n BOTELLA COMPRIMIBLE"
+			},
+			{
+				"id": 6,
+				"Nombre": "ARTÍCULOS COMUNES DE POLIETILENO:",
+				"informacion": "ENVASES DE YOGUR\n BOTELLAS DE MEDICAMENTOS\n TAPAS\n SORBETES"
+			},
+			{
+				"id": 7,
+				"Nombre": "ARTÍCULOS COMUNES DE POLIESTIRENO:",
+				"informacion": "PLATOS / VASOS DESECHABLES\n CAJAS DE HUEVOS\n BANDEJAS DE CARNE\n CONTENEDORES PARA LLEVAR"
+			},
+			{
+				"id": 8,
+				"Nombre": "ARTÍCULOS DE PLÁSTICOS COMUNES:",
+				"informacion": "GAFAS DE SOL\n NYLON\n MATERIALES ANTIBALAS\n BOTELLAS DE AGUA DE 5 LITROS"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"Titulo": "Metal",
+		"Imagen": "metal.png",
+		"Subcategoria": [
+			{
+				"id": 1,
+				"Nombre": "Que podemos reciclar",
+				"informacion": "**SI:**\n • Latas y papel de aluminio.\n • Latas de hojalata y acero, incluyendo latas de aerosol vacías.\n **NO:**\n • Agujas o jeringas."
+			},
+			{
+				"id": 2,
+				"Nombre": "ARTÍCULOS COMUNES DE ACERO:",
+				"informacion": "LATAS DE COMIDA"
+			},
+			{
+				"id": 3,
+				"Nombre": "ARTÍCULOS COMUNES DE ALUMINIO:",
+				"informacion": "LATAS DE REFRESCO\n LATAS DE DESODORANTE\n  ALIMENTO DESECHABLE\n CONTENEDORES\n PAPEL DE ALUMINIO\n DISIPADORES DE CALOR"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"Titulo": "Papel",
+		"Imagen": "paper.png",
+		"Subcategoria": [
+			{
+				"id": 1,
+				"Nombre": "Que podemos reciclar",
+				"informacion": "**SI:**\n • Papel mixto: publicidad, correo directo, papel de oficina.\n • Sobres, bolsas de papel, papel de regalo.\n • Revistas, periódicos, catálogos y guías telefónicas.\n **NO:**\n • Pañales o trapos desechables.\n • Artículos sucios como cajas de pizza, servilletas y pañuelos."
+			},
+			{
+				"id": 2,
+				"Nombre": "ARTÍCULOS COMUNES DE CARTÓN:",
+				"informacion": "CAJAS DE CEREAL\n CAJAS DE SERPIENTES"
+			},
+			{
+				"id": 3,
+				"Nombre": "ARTÍCULOS COMUNES DE PAPEL:",
+				"informacion": "PERIÓDICO\n LIBRO/REVISTAS\n PAPEL DE REGALO\n PAPEL DE PARED\n BOLSAS DE PAPEL\n SORBETES DE PAPEL"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"Titulo": "Vidrio",
+		"Imagen": "glass.png",
+		"Subcategoria": [
+			{
+				"id": 1,
+				"Nombre": "Que podemos reciclar",
+				"informacion": "**SI:**\n • Botellas y tarros de vidrio transparente, verde y marrón.\n **NO:**\n • Vidrios y espejos.\n • Bombillas fluorescentes compactas y otras bombillas.\n • Cerámica."
+			},
+			{
+				"id": 1,
+				"Nombre": "ARTÍCULOS COMUNES DE CRISTAL TRANSPARENTE:",
+				"informacion": "TARROS PARA ALIMENTOS"
+			},
+			{
+				"id": 2,
+				"Nombre": "ARTÍCULOS COMUNES DE VIDRIO VERDE",
+				"informacion": "BOTELLAS DE VINO"
+			},
+			{
+				"id": 3,
+				"Nombre": "ARTÍCULOS COMUNES DE VIDRIO MARRÓN:",
+				"informacion": "CERVEZA, PRODUCTOS SENSIBLES A LA LUZ"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"Titulo": "Cartón",
+		"Imagen": "cardboard.png",
+		"Subcategoria": [
+			{
+				"id": 1,
+				"Nombre": "Que podemos reciclar",
+				"informacion": "**SI:**\n • Cartón corrugado limpio.\n **NO:**\n • Cajas de pizza.\n • Cajas con película de plástico, cera u otros adornos."
+			},
+			{
+				"id": 2,
+				"Nombre": "ARTÍCULOS COMUNES DE CARTÓN CORRUGADO:",
+				"informacion": "CAJAS"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"Titulo": "Electrónicos",
+		"Imagen": "electric.png",
+		"Subcategoria": [
+			{
+				"id": 1,
+				"Nombre": "SÓLO LUGARES ESPECIALES DE RECICLAJE",
+				"informacion": "**SI:**\n • La mayoría de los aparatos electrónicos.\n **NO:**\n • Televisores y monitos LCD.\n • Televisores antiguos anteriores a 1991.\n • Cualquier artículo eléctrico que contenga mercurio o plomo."
+			}
+		]
+	},
+	{
+		"id": 7,
+		"Titulo": "Baterías",
+		"Imagen": "battery.png",
+		"Subcategoria": [
+			{
+				"id": 1,
+				"Nombre": "SÓLO EN LUGARES ESPECIALES DE RECICLAJE",
+				"informacion": "**SI:**\n • La mayoría de las pilas.\n **NO:**\n • Algunas pilas alcalinas.\n • Pilas de zinc-carbón."
+			},
+			{
+				"id": 2,
+				"Nombre": "ARTÍCULOS COMUNES DE PLOMO-ÁCIDO:",
+				"informacion": "BATERIAS DE COCHE"
+			},
+			{
+				"id": 3,
+				"Nombre": "ARTÍCULOS COMUNES ALCALINOS:",
+				"informacion": "BATERIAS DEL MANDO DE TV\n BATERIAS PARA LINTERNAS"
+			},
+			{
+				"id": 4,
+				"Nombre": "NÍQUEL-CADMIO ARTÍCULOS COMUNES:",
+				"informacion": "BATERIAS ANTIGUAS"
+			},
+			{
+				"id": 5,
+				"Nombre": "ARTÍCULOS COMUNES DE HIDRURO METÁLICO DE NÍQUEL:",
+				"informacion": "BATERÍAS RECARGABLES AA, AAA, 9 VOLTIOS Y D"
+			},
+			{
+				"id": 6,
+				"Nombre": "ARTÍCULOS COMUNES DE LITIO:",
+				"informacion": "BATERIAS PARA TELÉFONOS CELULARES\n BATERIAS DE COMPUTADORA\n BATERÍAS DE CÁMARA"
+			},
+			{
+				"id": 7,
+				"Nombre": "ARTÍCULOS COMUNES DE ÓXIDO DE PLATA:",
+				"informacion": "PILAS DE BOTÓN O DE MONEDA"
+			},
+			{
+				"id": 8,
+				"Nombre": "ARTÍCULOS COMUNES DE ZINC-CARBONO:",
+				"informacion": "ALGUNAS BATERÍAS AA, C Y D"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"Titulo": "Orgánico",
+		"Descripcion": "",
+		"Imagen": "organic.png",
+		"Subcategoria": [
+			{
+				"id": 1,
+				"Nombre": "Que podemos reciclar",
+				"informacion": "**SI:**\n • Materiales de madera, corcho, algodón y yute.\n **NO:**\n • Artículos que tienen otros materiales distintos a los enumerados anteriormente."
+			},
+			{
+				"id": 2,
+				"Nombre": "ARTÍCULOS COMUNES DE MADERA:",
+				"informacion": "MUEBLES\n TABLAS DE CORTAR\n ESCOBAS\n LÁPICES\n CUCHARAS"
+			},
+			{
+				"id": 3,
+				"Nombre": "OBJETOS COMUNES DEL CORCHO:",
+				"informacion": "TAPONES PARA BOTELLAS\n MANTELES INDIVIDUALES\n MATERIAL DE CONSTRUCCIÓN"
+			},
+			{
+				"id": 4,
+				"Nombre": "ARTÍCULOS COMUNES DE ALGODÓN:",
+				"informacion": "TOALLAS\n CAMISETAS\n HISOPOS\n ALMOHADILLAS"
+			},
+			{
+				"id": 5,
+				"Nombre": "ARTÍCULOS COMUNES DE YUTE:",
+				"informacion": "ROPA"
+			}
+		]
+	}
+]
