@@ -8,6 +8,7 @@ import './marker.module.scss';
 
 const Markers: React.FC = () => {
   const locations = [
+    // San Miguel de Tucuman
     { lat: -26.81923903249609, lng: -65.20276780022984, 
       name: 'Plaza Urquiza', 
       address: 'Av. Sarmiento y 25 de Mayo', 
@@ -33,8 +34,52 @@ const Markers: React.FC = () => {
       address: 'Esq. Mate de Luna y Asuncion ', 
       schedule: "Lunes de 14:00 a 17:00"},
 
+    { lat: -26.824237966020043, lng: -65.19303081064902, 
+      name: 'Direccion General de Salud Ambiental', 
+      address: 'Honduras 138', 
+      schedule: "Lunes a Jueves de 7:00 a 16:00 y Viernes de 7:00 a 13:00"},
 
-       
+    { lat: -26.828944199561462, lng: -65.19612386708849, 
+      name: 'Plaza San Miguel', 
+      address: 'Av. Avellaneda 295', 
+      schedule: "Lunes a Viernes de 8:30 a 12:30"},
+
+    { lat: -26.81750958119629, lng: -65.20658689386556, 
+      name: 'Seminario Mayor', 
+      address: 'Av. Sarmiento 841', 
+      schedule: "Lunes a Viernes de 9:00 a 16:00"},
+
+    //Yerba Buena
+    { lat: -26.806684469543082, lng: -65.2684208487819, 
+      name: 'Reciclaje Yerba Buena', 
+      address: 'Republica del Libano 810', 
+      schedule: "Lunes a Viernes de 8:30 a 12:00 y de 15:30 a 18:30"},
+      
+    { lat: -26.807686552186905, lng: -65.30500172681228, 
+      name: 'Reciclaje Yerba Buena', 
+      address: 'Imbaud y Fleming', 
+      schedule: "Todos los dias de 8:00 a 20:00"},
+
+    // Tafi Viejo
+    { lat: -26.77665552834702, lng: -65.22585157709673, 
+      name: 'Punto Verde Lomas de Tafí', 
+      address: 'Av. Raya y Cabo Quipildor', 
+      schedule: "24 hs"},
+
+    { lat: -26.732109940225474, lng: -65.25697876354783,
+      name: 'Casco Fundacional de la Ciudad de Tafí Viejo', 
+      address: 'Uttinger y 9 de Julio', 
+      schedule: "24 hs"},
+
+    { lat: -26.738185358306453, lng: -65.26770263176967,
+      name: 'Sector oeste del Casco Fundacional', 
+      address: 'Paraguay y San Juan', 
+      schedule: "24 hs"},
+
+    { lat: -26.721445141106113, lng: -65.25344917026206, 
+      name: 'Sector norte del Casco Fundacional', 
+      address: 'Laprida y Jose Colombres', 
+      schedule: "24 hs"},
   ];
 
   const customIcon = icon({
