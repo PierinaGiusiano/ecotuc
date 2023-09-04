@@ -44,7 +44,7 @@ const Informacion = () => {
         </p>
       </div>
       <div className={styles.section}>
-        <h2>Categorias</h2>
+        <h2>Qué materiales son reciclables y cuáles no lo son</h2>
         <div className={styles.categoriesWrapper}>
           {CategoriesJSON.map((category) => (
             <CardCategory
@@ -109,7 +109,7 @@ const Informacion = () => {
         </div>
       </div>
       <div className={styles.section}>
-        <h2>Tips y curiosidades</h2>
+        <h2>Ideas de reutilización</h2>
         <div className={styles.containerSlider}>
           <Swiper // Swiper para Tips
             spaceBetween={15}

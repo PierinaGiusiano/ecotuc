@@ -17,8 +17,13 @@ const NavBar = () => {
       </div>
       <div className={styles.iconContainer}>
         <MenuLink url="/home" title="Inicio" iconUrl={home}/>
+      
         <MenuLink url="/ecopuntos" title="Ecopuntos" iconUrl={pin}/>
-        <MenuLink url="/informacion" title="Información" iconUrl={book}/>
+        
+        <div className="informacion">
+          <MenuLink url="/informacion" title="Información" iconUrl={book}/>
+        </div>  
+      
       </div>
     </div>
   );

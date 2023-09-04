@@ -1,123 +1,114 @@
-import React, { useState } from 'react';
-import Joyride, { Step } from 'react-joyride'; // Asegúrate de importar Step desde react-joyride
+import React, { useEffect, useState } from 'react';
+//import { Link } from 'react-router-dom';
+import Joyride, { Step } from 'react-joyride';
+
 
 const tourSteps: Step[] = [
   {
     target: 'body',
     placement: 'center',
-    title: 'Walkthrough',
+    title: 'Bienvenido!',
     content:
-      'Seems like it’s your first time here. Follow this quick walkthrough to know how to get around.',
+      'Parece que es tu primera vez aquí. Sigue esta breve introducción para aprender cómo moverte por nuestro sitio Web.',
     disableBeacon: true,
   },
   {
     target: '.menu',
-    content: 'Click here to open the sidebar.',
+    content: 'INICIA EL RECORRIDO CON INFORMACION',
+    placement: 'top',
     disableBeacon: true,
   },
   {
-    target: '.title',
-    content: 'This is the main title.',
+    target: '.paso1',
+    content: 'PASO 1.',
     disableBeacon: true,
   },
   {
-    target: '.text',
-    content: 'This is the main text for the page.',
+    target: '.paso2',
+    content: 'PASO 2.',
     disableBeacon: true,
   },
   {
-    target: '.cta',
-    content: 'This is the Call to Action button.',
+    target: '.paso3',
+    content: 'PASO 3.',
+    disableBeacon: true,
+  },
+  {
+    target: '.informacion',
+    content: 'En el botón INFORMACIÓN encontrarás tips y curiosidades.',
+    disableBeacon: true,
+  },
+  {
+    target: '.consejo',
+    content: 'Por ultimo, tenemos 10 consejos para brindarte.',
     disableBeacon: true,
   },
 ];
 
-const Walkthrough = () => {
+const Onboarding = () => {
   const [steps] = useState(tourSteps);
+  /*
+  const [isTourOpen, setIsTourOpen] = useState(true);
+  
+  const closeTour = () => {
+    setIsTourOpen(false);
+  };
+
+
+  useEffect(() => {
+    const hasVisitedBefore = localStorage.getItem('hasVisitedBefore');
+
+    if (hasVisitedBefore) {
+      setIsTourOpen(true); // cambiar a true o false para ver onboarding
+    } else {
+      localStorage.setItem('hasVisitedBefore', 'true');
+    }
+  }, []);
+*/
+
 
   return (
     <>
-      <Joyride steps={steps} continuous showSkipButton={true} />
-      <div className="container">
-        <div className="menu">
-          <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, consectetur?</span>
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aliquid praesentium totam at reprehenderit corporis?</span>
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, hic? Ad, ipsum modi. Molestiae fuga illum dicta facere quia alias esse totam minima, dolorem quam, voluptatibus tenetur adipisci, distinctio sequi!</span>
-        </div>
-        <h1 className="title">webDevTips</h1>
-        <p className="text">
-          Want to learn more about Web Development? Follow @webdevtips on
-          Instagram to get awesome tips!
-        </p>
-        <button className="cta">Follow</button>
+      <div>
+        <Joyride
+            steps={steps}
+            continuous
+            showSkipButton={true}
+            scrollOffset={200}
+            locale={{
+              skip: 'Omitir',
+              next: 'Siguiente',
+              back: 'Anterior',
+              last: 'Finalizar'
+            }}
+        />
       </div>
     </>
   );
-};
-
-export default Walkthrough;
-
-
-
+}
+export default Onboarding;
 
 /*
-import React, { useState } from 'react';
-import { useNavigate } from "react-router-dom";
-
-const Onboarding: React.FC = () => {
-  const [step, setStep] = useState(1);
-
-  const handleNext = () => {
-    setStep(step + 1);
-  };
-
-  const handlePrev = () => {
-    setStep(step - 1);
-  };
-  const navigate = useNavigate ()
-
-  const renderStep = () => {
-    switch (step) {
-      case 1:
-        return (
+<>
           <div>
-            <h2>Step 1: Introduction</h2>
-            <p>This is the first step of the onboarding process.</p>
-            <button onClick={handleNext}>Next</button>
-          </div>
-        );
-      case 2:
-        return (
-          <div>
-            <h2>Step 2: Configuration</h2>
-            <p>Configure your settings here.</p>
-            <button onClick={handlePrev}>Previous</button>
-            <button onClick={handleNext}>Next</button>
-          </div>
-        );
-      case 3:
-        return (
-          <div>
-            <h2>Step 3: Completion</h2>
-            <p>Congratulations! You have completed the onboarding process.</p>
-            <button onClick={handlePrev}>Previous</button>
-            <button 
-            onClick={() => {navigate('/home');}}
-            >Finalizar</button>
-          </div>
-        );
-      default:
-        return null;
-    }
-  };
-
-  return (
-    <div>
-      <h1>Welcome to the Onboarding Process!</h1>
-      {renderStep()}
-    </div>
-  );
-};
-
-export default Onboarding;
+        {isTourOpen && (
+          <Joyride
+            steps={steps}
+            continuous
+            showSkipButton={true}
+            scrollOffset={200}
+            locale={{
+              skip: 'Omitir',
+              next: 'Siguiente',
+              back: 'Anterior',
+              last: 'Finalizar'
+            }}
+            callback={(data) => {
+              if (data.status === 'finished') {
+                closeTour();
+              }
+            } } />
+        )}
+      </div>
+    </>
 */

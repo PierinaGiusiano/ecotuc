@@ -9,8 +9,8 @@ const MapView = () => {
   return (
     <MapContainer
       center={[-26.81923903249609, -65.20276780022984]}
-      zoom={16}
-      maxZoom={18}
+      zoom={18}
+      maxZoom={25}
       minZoom={15}
       scrollWheelZoom={true}
       style={{ width: "100%", height: "100%"}}
