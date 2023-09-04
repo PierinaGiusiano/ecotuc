@@ -19,34 +19,14 @@ const tourSteps: Step[] = [
     disableBeacon: true,
   },
   {
-    target: '.menu',
-    content: 'Nuestra perspeciva',
+    target: '.ecopuntos',
+    content: 'En el boton ECOPUNTOS tienes disponible un mapa con los Eco Puntos y Puntos verdes de Tucumán.',
     placement: 'top',
     disableBeacon: true,
   },
   {
-    target: '.paso1',
-    content: 'PASO 1.',
-    disableBeacon: true,
-  },
-  {
-    target: '.paso2',
-    content: 'PASO 2.',
-    disableBeacon: true,
-  },
-  {
-    target: '.paso3',
-    content: 'PASO 3.',
-    disableBeacon: true,
-  },
-  {
     target: '.informacion',
-    content: 'En el botón INFORMACIÓN encontrarás tips y curiosidades.',
-    disableBeacon: true,
-  },
-  {
-    target: '.consejo',
-    content: 'Por ultimo, tenemos 10 consejos para brindarte.',
+    content: 'En el botón INFORMACIÓN encontrarás tips y curiosidades que te enseña que puedes y no puedes reciclar.',
     disableBeacon: true,
   },
 ];

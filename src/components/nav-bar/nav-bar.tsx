@@ -19,11 +19,12 @@ const NavBar = () => {
       <div className="inicio">
         <MenuLink url="/home" title="Inicio" iconUrl={home}/>
       </div>
+      <div className="ecopuntos">
         <MenuLink url="/ecopuntos" title="Ecopuntos" iconUrl={pin}/>
-        
-        <div className="informacion">
-          <MenuLink url="/informacion" title="Información" iconUrl={book}/>
-        </div>  
+      </div>
+      <div className="informacion">
+        <MenuLink url="/informacion" title="Información" iconUrl={book}/>
+      </div>  
       
       </div>
     </div>
