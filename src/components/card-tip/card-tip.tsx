@@ -9,29 +9,16 @@ type CardTipProps = {
 }
 
 const CardTip = ({ title, image, description, onClick }: CardTipProps) => {
+
   const descriptionRef = useRef<HTMLParagraphElement>(null);
-/*
-  useEffect(() => {
-    const descriptionElement = descriptionRef.current;
-    if (descriptionElement) {
-      const maxWords = 18;
-      const words = description.split(" ");
-      if (words.length > maxWords) {
-        const truncatedWords = words.slice(0, maxWords);
-        descriptionElement.textContent = truncatedWords.join(" ") + " ...";
-      }
-    }
-  }, [description]);
-*/
 
+  const applyBoldStyle = (text: string) => {
+    return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  }; // applica negrita a lo que esta dentro de **  ** 
 
-const applyBoldStyle = (text: string) => {
-  return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-}; // applica negrita a lo que esta dentro de **  ** 
-
-const descriptionLines = description.split('\n').map((line, index) => (
-  <p key={index} dangerouslySetInnerHTML={{ __html: applyBoldStyle(line) }}></p>
-)); // realiza salto de linea luego del \n
+  const descriptionLines = description.split('\n').map((line, index) => (
+    <p key={index} dangerouslySetInnerHTML={{ __html: applyBoldStyle(line) }}></p>
+  )); // realiza salto de linea luego del \n
 
 
   return (

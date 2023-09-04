@@ -8,10 +8,33 @@ import './marker.module.scss';
 
 const Markers: React.FC = () => {
   const locations = [
-    { lat: -26.81923903249609, lng: -65.20276780022984, name: 'Plaza Urquiza', address: 'avenida Sarmiento y 25 de Mayo', schedule: "miércoles, de 13 a 15; y viernes, de 17 a 20"},
-    { lat: -26.836655557238018, lng: -65.20531235883719, name: 'Plaza Yrigoyen', address: 'General Paz y 9 de Julio', schedule: "lunes, de 9 a 12; y viernes de 8.30 a 12"},
-    { lat: -26.838906900547897, lng: -65.2107546934997, name: 'Plaza San Martín', address: 'Lavalle y Chacabuco', schedule: "miércoles, de 9 a 12"},
-    { lat: -26.82144901866136, lng: -65.21129693011511, name: 'Plaza Alberdi', address: 'Santiago del Estero y Catamarca', schedule: "viernes, de 9 a 12"},
+    { lat: -26.81923903249609, lng: -65.20276780022984, 
+      name: 'Plaza Urquiza', 
+      address: 'Av. Sarmiento y 25 de Mayo', 
+      schedule: 'Miércoles 13:00 a 15:00 y Viernes de 17:00 a 20:00'},
+
+    { lat: -26.836655557238018, lng: -65.20531235883719, 
+      name: 'Plaza Yrigoyen', 
+      address: 'General Paz y 9 de Julio', 
+      schedule: "Lunes de 9:00 a 12:00 y Viernes de 8:30 a 12:00"},
+
+    { lat: -26.838906900547897, lng: -65.2107546934997, 
+      name: 'Plaza San Martín', 
+      address: 'Lavalle y Chacabuco', 
+      schedule: "Miércoles de 9:00 a 12:00"},
+      
+    { lat: -26.82144901866136, lng: -65.21129693011511, 
+      name: 'Plaza Alberdi', 
+      address: 'Santiago del Estero y Catamarca', 
+      schedule: "Viernes de 9:00 a 12:00"},
+
+    { lat: -26.827131131703762, lng: -65.22246153297797, 
+      name: 'Ecopunto en Parque Avellaneda', 
+      address: 'Esq. Mate de Luna y Asuncion ', 
+      schedule: "Lunes de 14:00 a 17:00"},
+
+
+       
   ];
 
   const customIcon = icon({
