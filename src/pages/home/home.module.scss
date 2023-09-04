@@ -50,6 +50,10 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  @media (max-width: 768px){
+    flex-direction: column;
+
+  }
 
   img {
     max-width: 100%;
@@ -63,6 +67,9 @@
       margin: 0;
     }
   }
+
+
+
 }
 
 .saveSection {
@@ -74,6 +81,12 @@
 
   img{ 
     max-height: 600px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      max-height: 100%;
+      margin: 0;
+    }
   }
 }
 

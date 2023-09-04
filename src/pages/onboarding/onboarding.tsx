@@ -9,12 +9,18 @@ const tourSteps: Step[] = [
     placement: 'center',
     title: 'Bienvenido!',
     content:
-      'Parece que es tu primera vez aquí. Sigue esta breve introducción para aprender cómo moverte por nuestro sitio Web.',
+      'Parece que es tu primera vez aquí. Sigue esta breve introducción para aprender cómo moverte por nuestra Aplicacion.',
+    disableBeacon: true,
+  },
+  {
+    target: '.inicio',
+    content: 'En el boton INICIO tienes informacion sobre nuestra pagina, quies somos y unos consejos.',
+    placement: 'top',
     disableBeacon: true,
   },
   {
     target: '.menu',
-    content: 'INICIA EL RECORRIDO CON INFORMACION',
+    content: 'Nuestra perspeciva',
     placement: 'top',
     disableBeacon: true,
   },
@@ -47,25 +53,6 @@ const tourSteps: Step[] = [
 
 const Onboarding = () => {
   const [steps] = useState(tourSteps);
-  /*
-  const [isTourOpen, setIsTourOpen] = useState(true);
-  
-  const closeTour = () => {
-    setIsTourOpen(false);
-  };
-
-
-  useEffect(() => {
-    const hasVisitedBefore = localStorage.getItem('hasVisitedBefore');
-
-    if (hasVisitedBefore) {
-      setIsTourOpen(true); // cambiar a true o false para ver onboarding
-    } else {
-      localStorage.setItem('hasVisitedBefore', 'true');
-    }
-  }, []);
-*/
-
 
   return (
     <>
@@ -87,28 +74,3 @@ const Onboarding = () => {
   );
 }
 export default Onboarding;
-
-/*
-<>
-          <div>
-        {isTourOpen && (
-          <Joyride
-            steps={steps}
-            continuous
-            showSkipButton={true}
-            scrollOffset={200}
-            locale={{
-              skip: 'Omitir',
-              next: 'Siguiente',
-              back: 'Anterior',
-              last: 'Finalizar'
-            }}
-            callback={(data) => {
-              if (data.status === 'finished') {
-                closeTour();
-              }
-            } } />
-        )}
-      </div>
-    </>
-*/

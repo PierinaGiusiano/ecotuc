@@ -16,8 +16,9 @@ const NavBar = () => {
         <img src={ecotuc} alt="ecotuc" />
       </div>
       <div className={styles.iconContainer}>
+      <div className="inicio">
         <MenuLink url="/home" title="Inicio" iconUrl={home}/>
-      
+      </div>
         <MenuLink url="/ecopuntos" title="Ecopuntos" iconUrl={pin}/>
         
         <div className="informacion">

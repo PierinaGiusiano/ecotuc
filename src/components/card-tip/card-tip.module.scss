@@ -16,4 +16,17 @@
     object-fit: cover;
     border-radius: 8px;    
   }
+  p:last-child{
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  @media (max-width: 768px){
+    justify-content: center;
+    align-items: center;
+  }
+
 }
+
+

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Layout from "../../components/layout/layout";
 
 import hero from "../../assets/images/hero.png";
-import stepss from "../../assets/images/steps.png";
+import steps from "../../assets/images/steps.png";
 import save from "../../assets/images/save.png";
 
 import styles from "./home.module.scss";
@@ -61,7 +61,7 @@ const Home = () => {
 
         <h2>Tu Guía para una Vida más Verde: </h2>
         <div className={styles.stepsSection}>
-          <img src={stepss} alt="girl holding earth" />
+          <img src={steps} alt="girl holding earth" />
           <div className={styles.stepsWrapper}>
             <div className="paso1">
               <h3>Aprender sobre prácticas sostenibles:</h3>
