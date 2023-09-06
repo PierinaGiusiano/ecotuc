@@ -1,86 +1,86 @@
 [
   {
     "id": 1,
-    "Titulo": "Botellas de plástico",
-    "Descripcion": "¡Quién diría que este objeto  puede convertirse en decoración para el hogar!\n Las botellas de plástico se pueden convertir en excelentes macetas verticales. Una solución ingeniosa que permite realizar un jardín vertical  de manera económica y muy sencilla.",
-    "Imagen": "botella+cd-maceta.jpg"
+    "title": "Botellas de plástico",
+    "description": "¡Quién diría que este objeto  puede convertirse en decoración para el hogar!\n Las botellas de plástico se pueden convertir en excelentes macetas verticales. Una solución ingeniosa que permite realizar un jardín vertical  de manera económica y muy sencilla.",
+    "image": "botella+cd-maceta.jpg"
   },
   {
     "id": 2,
-    "Titulo": "Joyero con botellas de plástico",
-    "Descripcion": "Todas queremos tener ordenados los pendientes, anillos, etc.\n ¿Cómo podemos lograrlo si no tenemos la caja o el recipiente adecuado?\n La forma de flor que tiene la base de la mayoría de las botellas de plástico se puede utilizar para fabricar un bonito joyero de varios pisos.\n Fabrícalo tú mismo!!",
-    "Imagen": "Joyero-Plastico.jpg"
+    "title": "Joyero con botellas de plástico",
+    "description": "Todas queremos tener ordenados los pendientes, anillos, etc.\n ¿Cómo podemos lograrlo si no tenemos la caja o el recipiente adecuado?\n La forma de flor que tiene la base de la mayoría de las botellas de plástico se puede utilizar para fabricar un bonito joyero de varios pisos.\n Fabrícalo tú mismo!!",
+    "image": "Joyero-Plastico.jpg"
   },
   {
     "id": 3,
-    "Titulo": "Frascos de vidrio",
-    "Descripcion": "El vidrio es un material que tarda mucho tiempo en descomponerse, por eso darle una segunda vida útil puede ser muy importante a la hora de ayudar a nuestro planeta.\n La idea es que uses frascos como los de mermelada, conservas o incluso algunas botellas para guardar otros productos, así le darás varios usos y no tendrás que tirarlos.\n Cuando ya no les veas más utilidad, recuerda que su última parada son los contenedores específicos.",
-    "Imagen": "Frascos-de-vidrio.jpg"
+    "title": "Frascos de vidrio",
+    "description": "El vidrio es un material que tarda mucho tiempo en descomponerse, por eso darle una segunda vida útil puede ser muy importante a la hora de ayudar a nuestro planeta.\n La idea es que uses frascos como los de mermelada, conservas o incluso algunas botellas para guardar otros productos, así le darás varios usos y no tendrás que tirarlos.\n Cuando ya no les veas más utilidad, recuerda que su última parada son los contenedores específicos.",
+    "image": "Frascos-de-vidrio.jpg"
   },
   {
     "id": 4,
-    "Titulo": "Cepillos de dientes",
-    "Descripcion": "Cuando ya no sirvan para su propósito inicial puedes usarlos para la limpieza de la casa, por ejemplo en juntas o en los rieles de las ventanas para sacarles el máximo partido. ¿Lo has probado ya?",
-    "Imagen": "cepillos-de-dientes.jpg"
+    "title": "Cepillos de dientes",
+    "description": "Cuando ya no sirvan para su propósito inicial puedes usarlos para la limpieza de la casa, por ejemplo en juntas o en los rieles de las ventanas para sacarles el máximo partido. ¿Lo has probado ya?",
+    "image": "cepillos-de-dientes.jpg"
   },
   {
     "id": 5,
-    "Titulo": "Ropa",
-    "Descripcion": "Es uno de los elementos más fáciles de reutilizar, ya que aunque tú ya no quieras una prenda, otras personas pueden necesitarla o sabrán qué hacer con ella. Puedes donar tu ropa para que se le dé una segunda vida útil.\n O por ej, el bolsillo de un pantalón viejo te servirá para sostener tu móvil mientras se carga.",
-    "Imagen": "Bolsillo-pantalon.jpg"
+    "title": "Ropa",
+    "description": "Es uno de los elementos más fáciles de reutilizar, ya que aunque tú ya no quieras una prenda, otras personas pueden necesitarla o sabrán qué hacer con ella. Puedes donar tu ropa para que se le dé una segunda vida útil.\n O por ej, el bolsillo de un pantalón viejo te servirá para sostener tu móvil mientras se carga.",
+    "image": "Bolsillo-pantalon.jpg"
   },
   {
     "id": 6,
-    "Titulo": "Organizador con tubos de cartón",
-    "Descripcion": "Los tubos de cartón del papel higiénico y otros productos similares se pueden emplear para crear un organizador para cables. También te pueden servir para ordenar el maquillaje, lápices, etc.\n Introduce varios dentro de una caja de cartón y usa cada uno como separador para este tipo de elementos. Es muy sencillo de hacer.",
-    "Imagen": "tubos-carton.jpg"
+    "title": "Organizador con tubos de cartón",
+    "description": "Los tubos de cartón del papel higiénico y otros productos similares se pueden emplear para crear un organizador para cables. También te pueden servir para ordenar el maquillaje, lápices, etc.\n Introduce varios dentro de una caja de cartón y usa cada uno como separador para este tipo de elementos. Es muy sencillo de hacer.",
+    "image": "tubos-carton.jpg"
   },
   {
     "id": 7,
-    "Titulo": "Velas decorativas con tapas",
-    "Descripcion": "Las tapas de algunos tipos de bebidas se pueden transformar en pequeñas velas decorativas para el salón o las habitaciones. Además, son muy sencillos de hacer.\n Rellénalos con cera, ponles una pequeña mecha y déjalas solidificar.\n No obstante, vigila siempre que no puedan quemar nada a su alrededor.",
-    "Imagen": "velas-con-tapas.jpg"
+    "title": "Velas decorativas con tapas",
+    "description": "Las tapas de algunos tipos de bebidas se pueden transformar en pequeñas velas decorativas para el salón o las habitaciones. Además, son muy sencillos de hacer.\n Rellénalos con cera, ponles una pequeña mecha y déjalas solidificar.\n No obstante, vigila siempre que no puedan quemar nada a su alrededor.",
+    "image": "velas-con-tapas.jpg"
   },
   {
     "id": 8,
-    "Titulo": "Colgadores con viejas herramientas",
-    "Descripcion": "Las herramientas siempre nos servirán para facilitar algunas tareas en la casa. No obstante, algunas son demasiado viejas y ya las hemos remplazado por otras con más tecnología.\n Para no desaprovecharlas, dóblalas y pégalas sobre una superficie de madera para obtener unas perchas. De este modo lograrás un adorno útil y rústico.",
-    "Imagen": "LLaves-viejas.jpg"
+    "title": "Colgadores con viejas herramientas",
+    "description": "Las herramientas siempre nos servirán para facilitar algunas tareas en la casa. No obstante, algunas son demasiado viejas y ya las hemos remplazado por otras con más tecnología.\n Para no desaprovecharlas, dóblalas y pégalas sobre una superficie de madera para obtener unas perchas. De este modo lograrás un adorno útil y rústico.",
+    "image": "LLaves-viejas.jpg"
   },
   {
     "id": 9,
-    "Titulo": "Cajas de cartón",
-    "Descripcion": "Las cajas de cartón pueden tener muchas utilidades distintas.\n Tanto para una mudanza, como cuando tenemos que trasladar elementos de mucho peso o simplemente para almacenar todo tipo de objetos. Incluso la mayoría de las manualidades para los más pequeños requieren del uso de cartón, que puede ser aprovechado de estas cajas para no generar residuos innecesarios.\n Si no tienes mucho espacio en casa, también puedes emplear las cajas de cartón de los zapatos como organizadores de todo tipo de elementos almacenables, incluso crear un zapatero improvisado con el que optimizar el poco espacio del que dispones.",
-    "Imagen": "caja-de-carton.jpg"
+    "title": "Cajas de cartón",
+    "description": "Las cajas de cartón pueden tener muchas utilidades distintas.\n Tanto para una mudanza, como cuando tenemos que trasladar elementos de mucho peso o simplemente para almacenar todo tipo de objetos. Incluso la mayoría de las manualidades para los más pequeños requieren del uso de cartón, que puede ser aprovechado de estas cajas para no generar residuos innecesarios.\n Si no tienes mucho espacio en casa, también puedes emplear las cajas de cartón de los zapatos como organizadores de todo tipo de elementos almacenables, incluso crear un zapatero improvisado con el que optimizar el poco espacio del que dispones.",
+    "image": "caja-de-carton.jpg"
   },
   {
     "id": 10,
-    "Titulo": "Restos de café",
-    "Descripcion": "En efecto, los restos o posos de café son una auténtica maravilla para reutilizar en el jardín, con fines cosméticos o para la limpieza diaria.\n Por ejemplo, mezclando restos de café con agua muy caliente podemos conseguir que el agua cuele mejor la bacha, y frotándolas desodorizaremos las manos y otras superficies como la heladera.\n También nos ayudará a desengrasar cacerolas, dar brillo a superficies resistentes a las ralladuras o, atreviéndonos con todo, será muy efectivo para hacernos un peeling corporal con efecto anticelulítico por su contenido en cafeína.",
-    "Imagen": "Restos-cafe.jpg"
+    "title": "Restos de café",
+    "description": "En efecto, los restos o posos de café son una auténtica maravilla para reutilizar en el jardín, con fines cosméticos o para la limpieza diaria.\n Por ejemplo, mezclando restos de café con agua muy caliente podemos conseguir que el agua cuele mejor la bacha, y frotándolas desodorizaremos las manos y otras superficies como la heladera.\n También nos ayudará a desengrasar cacerolas, dar brillo a superficies resistentes a las ralladuras o, atreviéndonos con todo, será muy efectivo para hacernos un peeling corporal con efecto anticelulítico por su contenido en cafeína.",
+    "image": "Restos-cafe.jpg"
   },
   {
     "id": 11,
-    "Titulo": "Bolsitas de té y otras infusiones",
-    "Descripcion": "Dejar secar y usar como absorbeolores para la heladera y otros habitáculos de pequeño tamaño, como cajones, armanios o cajas de zapatos.\n Por último, para darle un uso beneficioso, podemos eliminar la bolsita y optar por enterrarla en el suelo o simplemente dejarla en la superficie, donde contribuirá como abono natural.",
-    "Imagen": "bolsitas-de-té.jpg"
+    "title": "Bolsitas de té y otras infusiones",
+    "description": "Dejar secar y usar como absorbeolores para la heladera y otros habitáculos de pequeño tamaño, como cajones, armanios o cajas de zapatos.\n Por último, para darle un uso beneficioso, podemos eliminar la bolsita y optar por enterrarla en el suelo o simplemente dejarla en la superficie, donde contribuirá como abono natural.",
+    "image": "bolsitas-de-té.jpg"
   },
   {
     "id": 12,
-    "Titulo": "Corchos sin uso",
-    "Descripcion": "¿Eres amante del vino y te sobran un sinfín de corchos?\n Haz una bandeja para apoyar la pava caliente y evita que se estropee tu mesa. Es muy fácil: colócalos en posición vertical, uno al lado del otro, formando un círculo o un rectangulo. ",
-    "Imagen": "corchos-de-vino.jpg"
+    "title": "Corchos sin uso",
+    "description": "¿Eres amante del vino y te sobran un sinfín de corchos?\n Haz una bandeja para apoyar la pava caliente y evita que se estropee tu mesa. Es muy fácil: colócalos en posición vertical, uno al lado del otro, formando un círculo o un rectangulo. ",
+    "image": "corchos-de-vino.jpg"
   },
   {
     "id": 13,
-    "Titulo": "Cajones de verdura",
-    "Descripcion": "Con ellos se pueden hacer un montón de muebles y darle a tu hogar un aire rústico. Te compartimos algunas ideas de cómo reciclarlos:\n**• Estantería:** colgá los cajones en la pared y empezá a usarlos como estanterías en el dormitorio.\n **• Cajonera:** usá los cajones para organizar los objetos de la casa que están dispersos.\n **• Muebles verticales:** apilá los cajones para guardar diferentes objetos o usalos como separador de ambientes.\n **• Mesita auxiliar:** ponele rueditas en la base y usala como mesita auxiliar en el dormitorio, living o en otro rincón de la casa.\n **• Contenedor de macetas:** decoralo y ponele plantas adentro.\n **• Mesita ratona:** uní varios cajones de frutas para poner en el jardín o patio de tu casa.",
-    "Imagen": "cajones-de-verdura.jpg"
+    "title": "Cajones de verdura",
+    "description": "Con ellos se pueden hacer un montón de muebles y darle a tu hogar un aire rústico. Te compartimos algunas ideas de cómo reciclarlos:\n**• Estantería:** colgá los cajones en la pared y empezá a usarlos como estanterías en el dormitorio.\n **• Cajonera:** usá los cajones para organizar los objetos de la casa que están dispersos.\n **• Muebles verticales:** apilá los cajones para guardar diferentes objetos o usalos como separador de ambientes.\n **• Mesita auxiliar:** ponele rueditas en la base y usala como mesita auxiliar en el dormitorio, living o en otro rincón de la casa.\n **• Contenedor de macetas:** decoralo y ponele plantas adentro.\n **• Mesita ratona:** uní varios cajones de frutas para poner en el jardín o patio de tu casa.",
+    "image": "cajones-de-verdura.jpg"
   },
   {
     "id": 14,
-    "Titulo": "Latas",
-    "Descripcion": "**• Portavelas:** son excelentes adornos reciclados para el hogar. Solo tenés que cortar la parte del medio de la lata, achatarla y pintarla de colores. Luego colocá una velita aromática adentro, así tendrás un hermoso portavelas.\n **• Macetas:** es una de las manualidades para el hogar recicladas. Decorá las latas y usalas como macetas para plantas y flores.\n **• Organizador:** juntá varias latas de aluminio de distintos tamaños y pintalas. Luego pegalas para que sean usadas como un organizador para los chicos.",
-    "Imagen": "latas.jpg"
+    "title": "Latas",
+    "description": "**• Portavelas:** son excelentes adornos reciclados para el hogar. Solo tenés que cortar la parte del medio de la lata, achatarla y pintarla de colores. Luego colocá una velita aromática adentro, así tendrás un hermoso portavelas.\n **• Macetas:** es una de las manualidades para el hogar recicladas. Decorá las latas y usalas como macetas para plantas y flores.\n **• Organizador:** juntá varias latas de aluminio de distintos tamaños y pintalas. Luego pegalas para que sean usadas como un organizador para los chicos.",
+    "image": "latas.jpg"
   }
 ]

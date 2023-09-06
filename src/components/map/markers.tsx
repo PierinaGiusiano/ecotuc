@@ -1,6 +1,7 @@
 import React from 'react';
 import { Marker, Popup } from 'react-leaflet';
 import { icon } from 'leaflet';
+
 import iconLocation from '../../assets/images/icons/icon-location.svg';
 import logo from '../../assets/images/contenedor.jpg';
 

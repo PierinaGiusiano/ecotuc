@@ -1,9 +1,10 @@
 import React from "react";
-
 import { MapContainer, TileLayer } from "react-leaflet";
-import "leaflet/dist/leaflet.css";
 
 import Markers from "./markers";
+
+import "leaflet/dist/leaflet.css";
+
 
 const MapView = () => {
   return (

@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-//import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import Joyride, { Step } from 'react-joyride';
 
 
@@ -7,28 +6,26 @@ const tourSteps: Step[] = [
   {
     target: 'body',
     placement: 'center',
-    title: 'Bienvenido!',
+    title: '¡Bienvenido!',
     content:
-      'Parece que es tu primera vez aquí. Sigue esta breve introducción para aprender cómo moverte por nuestra Aplicacion.',
+      'Parece que es tu primera vez por aquí 👀. Sigue esta breve introducción para aprender cómo moverte por nuestra Aplicación.',
     disableBeacon: true,
   },
   {
     target: '.inicio',
-    content: 'En el boton INICIO tienes informacion sobre nuestra pagina, quies somos y unos consejos.',
-    placement: 'top',
+    content: 'En el botón INICIO tienes información sobre nuestra página ✍️, quiénes somos 👥 y unos consejos 🧠.',
     disableBeacon: true,
   },
   {
     target: '.ecopuntos',
-    content: 'En el boton ECOPUNTOS tienes disponible un mapa con los Eco Puntos y Puntos verdes de Tucumán.',
-    placement: 'top',
+    content: 'En el botón ECOPUNTOS tienes disponible un mapa 🗺️ con los Eco Puntos y Puntos verdes de Tucumán 📌.',
     disableBeacon: true,
   },
   {
     target: '.informacion',
-    content: 'En el botón INFORMACIÓN encontrarás tips y curiosidades que te enseña que puedes y no puedes reciclar.',
+    content: 'En el botón INFORMACIÓN encontrarás tips y curiosidades 🪄 que te enseñan qué puedes y no puedes reciclar.',
     disableBeacon: true,
-  },
+  }  
 ];
 
 const Onboarding = () => {
@@ -47,6 +44,16 @@ const Onboarding = () => {
               next: 'Siguiente',
               back: 'Anterior',
               last: 'Finalizar'
+            }}
+            styles={{
+              options: {
+                arrowColor: '#92be87',
+                backgroundColor: '#fff',
+                overlayColor: 'rgba(0, 0, 0, 0.7)',
+                primaryColor: '#92be87',
+                textColor: '#235130',
+                zIndex: 1000,
+              }
             }}
         />
       </div>
