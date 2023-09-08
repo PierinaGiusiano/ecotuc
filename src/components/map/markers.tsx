@@ -119,6 +119,7 @@ const Markers: React.FC = () => {
               <h3>{location.name}</h3>
               <p>{location.address}</p>
               <p>{location.schedule}</p>
+              <p>{location.descripcion}</p>
               <img src={logo} style={{ maxWidth: '100%', height: 'auto' }} alt='Container' />
             </div>
           </Popup>
