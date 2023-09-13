@@ -12,6 +12,7 @@ type ModalProps = {
   isOpen?: boolean;
   category?: boolean;
   onClose?: () => void;
+  link?: string | null;
 };
 
 const CardModal = ({
@@ -21,13 +22,14 @@ const CardModal = ({
   category,
   isOpen,
   onClose,
+  link
 }: ModalProps) => {
   return (
     <div
       className={styles.modalWrapper}
       style={{ display: isOpen ? "flex" : "none" }}
     >
-      <div className={styles.modalContent}>
+      <div className={cx(styles.modalContent)}>
         <img
           src={close}
           width={24}
@@ -45,6 +47,10 @@ const CardModal = ({
           />
         </div>
         <div className={styles.content}>{children}</div>
+        {
+          link &&
+          <span><a className={styles.link} href={link} target="blank">Podes aprender más aquí</a>💫</span>
+        }
       </div>
     </div>
   );

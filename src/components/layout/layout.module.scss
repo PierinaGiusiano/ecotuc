@@ -23,4 +23,15 @@
         top: 0;
     }
   }
+
+  .footerWrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 56px;
+
+    @media (min-width: 991px) {
+      bottom: 0;
+    }
+  }
 }

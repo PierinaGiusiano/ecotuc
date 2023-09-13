@@ -1,11 +1,11 @@
-import React from 'react';
-import { Marker, Popup } from 'react-leaflet';
-import { icon } from 'leaflet';
+import React from "react";
+import { Marker, Popup } from "react-leaflet";
+import { icon } from "leaflet";
 
-import iconLocation from '../../assets/images/icons/icon-location.svg';
-import logo from '../../assets/images/contenedor.jpg';
+import iconLocation from "../../assets/images/icons/icon-location.svg";
+import logo from "../../assets/images/contenedor.jpg";
 
-import './marker.module.scss';
+import styles from "./marker.module.scss";
 
 const Markers: React.FC = () => {
   const locations = [
@@ -113,8 +113,12 @@ const Markers: React.FC = () => {
   return (
     <>
       {locations.map((location, index) => (
-        <Marker key={index} position={[location.lat, location.lng]} icon={customIcon}>
-          <Popup>
+        <Marker
+          key={index}
+          position={[location.lat, location.lng]}
+          icon={customIcon}
+        >
+          <Popup className={styles.popup}>
             <div>
               <h3>{location.name}</h3>
               <p>{location.address}</p>

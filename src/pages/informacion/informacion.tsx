@@ -130,6 +130,7 @@ const Informacion = () => {
             isOpen={isModalOpen1}
             onClose={() => setIsModalOpen1(false)}
             title={selectedTipsId ? TipsJSON[selectedTipsId - 1].title : ""}
+            link={selectedTipsId ? TipsJSON[selectedTipsId - 1].link : ""}
             image={
               selectedTipsId
                 ? require(`../../assets/images/tips/${

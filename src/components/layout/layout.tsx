@@ -2,6 +2,7 @@ import React, { ReactNode } from "react";
 import cx from "classnames";
 
 import NavBar from "../nav-bar/nav-bar";
+import Footer from "../footer/footer";
 
 import styles from "./layout.module.scss";
 
@@ -17,6 +18,9 @@ const Layout = ({ children }: LayoutProps) => {
       </div>
       <div className={cx("container")}>
         <div className={styles.children}>{children}</div>
+      </div>
+      <div className={styles.footerWrapper}>
+        <Footer/>
       </div>
     </div>
   );
