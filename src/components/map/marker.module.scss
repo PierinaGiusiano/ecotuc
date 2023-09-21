@@ -1,0 +1,23 @@
+.popup {
+  p {
+    font-size: 12px;
+    margin: 0;
+
+    @media (min-width: 991px) {
+      font-size: 14px;
+    }
+  }
+
+  .image {
+    max-width: 200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    overflow: hidden;
+
+    @media (min-width: 991px) {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}

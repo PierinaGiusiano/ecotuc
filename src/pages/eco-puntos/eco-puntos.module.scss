@@ -2,7 +2,50 @@
   margin-bottom: 30px;
 }
 
-.mapContainer{
+.mapContainer {
   width: 100%;
   height: calc(100vh - 130px);
+  position: relative;
+
+  .message {
+    display: none;
+
+    @media (max-width: 545px) {
+      background-color: var(--primary-60);
+      display: flex;
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+
+      h2 {
+        text-align: center;
+        margin: auto;
+        color: var(--color-white);
+        padding: 0 20px;
+      }
+
+      &.messageFull {
+        display: none;
+      }
+    }
+  }
+
+  .expand {
+    position: absolute;
+    top: 80px;
+    left: 13.5px;
+    z-index: 20;
+    background: white;
+    border-radius: 8px;
+    padding: 2px;
+    border: 1px solid var(--primary);
+  }
+
+  &.fullscreen {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+  }
 }
