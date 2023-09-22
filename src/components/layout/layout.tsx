@@ -4,6 +4,8 @@ import cx from "classnames";
 import NavBar from "../nav-bar/nav-bar";
 import Footer from "../footer/footer";
 
+import ecotuc from "../../assets/images/ecotuc-logo.png";
+
 import styles from "./layout.module.scss";
 
 type LayoutProps = {
@@ -13,6 +15,9 @@ type LayoutProps = {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div className={styles.layout}>
+      <div className={styles.logo}>
+        <img src={ecotuc} alt="ecotuc" />
+      </div>
       <div className={styles.navbarWrapper}>
         <NavBar />
       </div>
