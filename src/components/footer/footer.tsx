@@ -13,7 +13,7 @@ const Footer = () => {
         <div className={styles.name}>
             <p>Giusiano Pierina</p>
             <p>Grupalli Lucca</p>
-            <p>Hero Luis</p>
+            <p>Hero Luis Carlos</p>
         </div>
     </div>
   )

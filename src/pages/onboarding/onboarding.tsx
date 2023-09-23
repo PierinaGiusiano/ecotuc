@@ -23,7 +23,7 @@ const tourSteps: Step[] = [
   },
   {
     target: '.informacion',
-    content: 'En el botón INFORMACIÓN encontrarás tips y curiosidades 🪄 que te enseñan qué puedes y no puedes reciclar.',
+    content: 'En el botón INFORMACIÓN encontrarás tips y curiosidades 🤓 que te enseñan qué puedes y no puedes reciclar.',
     disableBeacon: true,
   }  
 ];

@@ -9,15 +9,14 @@
   cursor: pointer;
 
   .imageWrapper {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
-
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; // Mantiene aspecto cuadrado para el contenedor 
+    
     img {
+      position: absolute;
       width: 100%;
       height: 100%;
-      max-width: 250px;
-      max-height: 250px;
       object-fit: cover;
       border-radius: 8px;
     }
