@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./card-tip.module.scss";
 
 type CardTipProps = {
@@ -8,7 +7,6 @@ type CardTipProps = {
   description: string;
   onClick?: () => void;
 };
-
 const CardTip = ({ title, image, description, onClick }: CardTipProps) => {
   return (
     <div className={styles.cardTip}>
@@ -20,5 +18,4 @@ const CardTip = ({ title, image, description, onClick }: CardTipProps) => {
     </div>
   );
 };
-
 export default CardTip;

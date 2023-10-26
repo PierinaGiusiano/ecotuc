@@ -1,7 +1,5 @@
 import React from 'react';
-
 import utn from "../../assets/images/utn-logo.png";
-
 import styles from "./footer.module.scss";
 
 const Footer = () => {
@@ -12,7 +10,6 @@ const Footer = () => {
         </div>
         <div className={styles.name}>
             <p>Giusiano Pierina</p>
-            <p>Grupalli Lucca</p>
             <p>Hero Luis Carlos</p>
         </div>
     </div>

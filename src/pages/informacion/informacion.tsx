@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
-
 import Layout from "../../components/layout/layout";
 import CardCategory from "../../components/card-category/card-category";
 import CardTip from "../../components/card-tip/card-tip";
 import CardModal from "../../components/card-modal/card-modal";
-
 import TipsJSON from "../../JSON/tips.json";
 import CategoriesJSON from "../../JSON/categorias.json";
-
 import "swiper/css";
 import "swiper/css/navigation";
 import styles from "./informacion.module.scss";

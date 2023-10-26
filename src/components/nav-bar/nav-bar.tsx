@@ -1,7 +1,5 @@
 import React from "react";
-
 import MenuLink from "../menu-link/menu-link";
-
 import ecotuc from "../../assets/images/ecotuc-logo.png";
 import home from "../../assets/images/icons/icon-home.svg";
 import pin from "../../assets/images/icons/icon-pin.svg";

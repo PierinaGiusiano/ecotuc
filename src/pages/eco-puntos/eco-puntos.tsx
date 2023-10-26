@@ -1,16 +1,12 @@
 import React, { useState } from "react";
 import cx from "classnames";
-
 import Layout from "../../components/layout/layout";
 import MapView from "../../components/map/map-view";
-
 import expand from "../../assets/images/icons/icon-expand.svg";
-
 import styles from "./eco-puntos.module.scss";
 
 const EcoPuntos = () => {
   const [fullscreen, setFullscreen] = useState(false);
-
   const toggleMap = () => {
     setFullscreen((prevFullscreen) => !prevFullscreen);
   };

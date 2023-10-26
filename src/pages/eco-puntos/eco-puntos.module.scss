@@ -4,12 +4,12 @@
 
 .mapContainer {
   width: 100%;
-  height: calc(100vh - 130px);
+  height: calc(100vh - 330px);
   position: relative;
 
   .message {
     display: none;
-
+    
     @media (max-width: 545px) {
       background-color: var(--primary-60);
       display: flex;

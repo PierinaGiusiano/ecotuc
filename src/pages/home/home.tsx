@@ -1,14 +1,10 @@
 import React, { useEffect, useState } from "react";
-
 import Layout from "../../components/layout/layout";
 import Onboarding from "../onboarding/onboarding";
-
 import hero from "../../assets/images/hero.png";
 import steps from "../../assets/images/steps.png";
 import save from "../../assets/images/save.png";
-
 import styles from "./home.module.scss";
-
 
 const Home = () => {
   const [showOnboarding, setShowOnboarding] = useState(false);

@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./card-category.module.scss";
 
 type CardCategoryProps = {

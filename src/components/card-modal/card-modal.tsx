@@ -1,8 +1,6 @@
 import React, { ReactNode } from "react";
 import cx from "classnames";
-
 import close from "../../assets/images/icons/icon-close.svg";
-
 import styles from "./card-modal.module.scss";
 
 type ModalProps = {

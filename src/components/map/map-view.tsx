@@ -1,8 +1,6 @@
 import React from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
-
 import Markers from "./markers";
-
 import "leaflet/dist/leaflet.css";
 
 const MapView = () => {
@@ -23,5 +21,4 @@ const MapView = () => {
     </MapContainer>
   );
 };
-
 export default MapView;
