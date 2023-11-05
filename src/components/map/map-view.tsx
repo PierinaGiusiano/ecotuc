@@ -11,6 +11,7 @@ const MapView = () => {
       minZoom={12}
       scrollWheelZoom={true}
       style={{ width: "100%", height: "100%" }}
+      bounceAtZoomLimits={false}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
