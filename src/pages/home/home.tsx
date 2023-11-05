@@ -92,7 +92,7 @@ const Home = () => {
               <h3>Guías de reciclaje: ♻️</h3>
               <p>
                 En EcoTuc, creemos que el reciclaje es una de las prácticas más
-                importantes para reducir nuestro impacto ambiental. Sin embargo,
+                importantes para reducir nuestro impacto ambiental. Sin embargo,{" "}
                 <b>
                   para que el reciclaje sea efectivo, es fundamental conocer
                   cómo hacerlo correctamente
@@ -131,7 +131,7 @@ const Home = () => {
           </p>
           <br />
           <p>
-            De hecho, hoy nos gustaría darte algunas recomendaciones para
+            De hecho, hoy nos gustaría darte algunas recomendaciones para{" "}
             <b>
               reutilizar productos cotidianos con el objetivo de darles una
               segunda vida útil
