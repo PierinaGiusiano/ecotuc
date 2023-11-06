@@ -10,7 +10,7 @@ const MapView = () => {
       zoom={15}
       minZoom={12}
       scrollWheelZoom={true}
-      style={{ width: "100%", height: "100%" }}
+      style={{ width: "100%", height: "100%", zIndex: 998 }}
       bounceAtZoomLimits={false}
     >
       <TileLayer
