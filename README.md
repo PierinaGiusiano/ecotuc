@@ -30,6 +30,6 @@ Ejecuta el runner de pruebas en modo interactivo.
 
 # ¡Contribuye a hacer de San Miguel de Tucumán un lugar más verde y sostenible con EcoTuc! 🌿♻️
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Podes saber más > [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para aprender React > [React documentation](https://reactjs.org/).
